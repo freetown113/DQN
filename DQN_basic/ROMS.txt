@@ -1,0 +1,7 @@
+Exception: ROM is missing for pong, see https://github.com/openai/atari-py#roms for instructions
+
+
+! wget http://www.atarimania.com/roms/Roms.rar
+! mkdir /content/ROM/
+! unrar e /content/Roms.rar /content/ROM/
+! python -m atari_py.import_roms /content/ROM/
